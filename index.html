@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+
+    <link rel="shortcut icon" href="./src/imagens/logo.png" type="image/x-icon">
+
+    <title>Tengen Toppa Gurren Lagan</title>
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay Loop muted>
+            <source src="./src/video/Tengen Toppa Gurren - Lagann【AMV】Savior.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/logo.png" alt="Logo Tengen Toppa Gurren Lagan">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="https://gurrenlagann.fandom.com/wiki/Main_Page" target="_blank">Wiki</a></li>
+                <li><a href="https://github.com/MatheusZag" target="_blank"><img class="Github" src="./src/imagens/Github.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/matheus-silva-zagrakalin/" target="_blank"><img class="Linkedin" src="./src/imagens/linkedin.png"></a></li>
+            </ul>
+        </nav>  
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/Título.png" alt="Título do Anime">
+            <p class="descricao">O anime conta a história dos amigos Simon e Kamina. Simon é um escavador de túneis que
+                vive numa comunidade subterrânea. Os antigos líderes da comunidade contam histórias de ”coisas
+                terríveis“ que existem na superfície e punem severamente aqueles que desafiam essa filosofia. Um dos
+                principais ”rebeldes“ é justamente Kamina, que vive a tentar das mais variadas formas de chegar até a
+                superfície a fim de conhecê-la. Durante uma escavação, Simon encontra uma estranha mini-broca que brilha
+                sozinha e ele nem imagina para que ela serve.</p>
+            <button class="botao-trailer">Veja o Trailer</button>
+        </div>
+        <img class="gurrenlagan" src="./src/imagens/Personagens.png">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/1RB-BfklDHY"title="Trailer" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
